@@ -1,16 +1,16 @@
 /**
  * Common database helper functions.
  */
-class DBHelper {
+/*class DBHelper {
 
-  /**
+  *
    * Database URL.
    * Change this to restaurants.json file location on your server.
    */
-  static get DATABASE_URL() {
-
-    return `https://billvas-webdev.github.io/mws-restaurant-stage-1/data/restaurants.json`;
-  }
+  /*static get DATABASE_URL() {
+    const port = 8000 // Change this to your server port
+    return `http://localhost:${port}/data/restaurants.json`;
+  }*/
 
   /**
    * Fetch all restaurants.

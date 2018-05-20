@@ -1,4 +1,4 @@
-/*importScripts('js/serviceworker-cache-polyfill.js'); // polyfill needed for service worker to work on all browsers*/
+importScripts('js/serviceworker-cache-polyfill.js'); // polyfill needed for service worker to work on all browsers*/
 
 const CACHE_NAME = 'restaurant-reviews-cache-v1';
 let filesToCache = [
